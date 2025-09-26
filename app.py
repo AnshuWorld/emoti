@@ -5,7 +5,7 @@ import tempfile
 # Hugging Face free API endpoint (replace with a free TTS model repo id)
 TTS_API = "https://api-inference.huggingface.co/models/coqui/XTTS-v1"
 TRANS_API = "https://api-inference.huggingface.co/models/facebook/m2m100_418M"
-HF_TOKEN = "YOUR_HF_TOKEN"   # free account gives you one
+HF_TOKEN = "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"   # free account gives you one
 
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
